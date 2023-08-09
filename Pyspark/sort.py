@@ -7,6 +7,7 @@ data = [(1,'maher','m',2000,'IT'),
         (4,'saraf','m',5000,'HR')]
 schema = ['id','name','gender','salary','dep']
 df = spark.createDataFrame(data,schema)
+
 # df.show()
 # sort data according to dept column
 # df.sort('dep').show() #or
